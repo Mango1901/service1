@@ -1,0 +1,51 @@
+
+.fixNav{
+  width: 100%;
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  z-index: 100000000;
+}
+.cart-body{
+	z-index:999;
+}
+.inner-header{
+	background-color: #ffffff
+}
+.inner-title,.beta-breadcrumb, .beta-breadcrumb a{
+	color: black
+}
+.main-menu>ul.l-inline> li> a{
+	color: #fff;
+	padding: 10px 35px
+}
+/*html{
+	scroll-behavior: smooth;
+}*/
+#back-to-top{
+	position: fixed;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    z-index: 999;
+    width: 40px;
+    height: 40px;
+    line-height: 40px; 
+    right: 15px;
+    bottom: 15px;
+    background: rgba(255, 182, 40, 0.8);
+    display: none;
+}
+#back-to-top i {
+    padding-top: 10px;
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.insta ul li a i {
+  width: 30px;
+  height: 30px;
+}
+.insta ul li::hover {
+ color: yellow;
+}

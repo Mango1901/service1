@@ -1,0 +1,502 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+*{
+    box-sizing: border-box;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+a{
+    color: black;
+    text-decoration: none !important;
+}
+
+.page-breadcrumb li {
+    display:block;
+}
+#status_sv{
+    margin-right: 20px;
+}
+@media only screen and (min-width: 900px) {
+    .page-breadcrumb li {
+        float:left
+    }
+
+    .page-breadcrumb {
+      width:100%;
+      margin-top: 5px !important;
+      float: left;
+    }
+}
+
+.wrapper{
+    margin:auto;
+}
+.bgr_nen{
+    /*background-image: url("../imgs/nen.jpg");*/
+    background-color: aliceblue;
+    width: 100%;
+    margin-top: 10px !important;
+    float: left;
+}
+.title2{
+    color: #ff1269;
+}
+
+
+.title1{
+    text-align: center;
+    background: #4db248;
+    border-top: #ff3945 3px solid;
+    height: 50px;
+    padding: 10px;
+    margin-top: 0px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.status-service{
+    margin-right: 5px;
+}
+.display{
+    background-color: lightcyan;
+    box-shadow: 1px 1px 5px black;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+.display input{
+    margin-left: 50px;
+}
+.status {
+    float: right;
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+}
+.status input{
+    background-color: whitesmoke; /* Màu của Quản trị mạng ^^ */
+    padding: 9px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    font-weight: bold;
+    border-radius: 10px 0 0 10px;
+    position: relative;
+}
+.btn3{
+    order: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: -6px;
+    border-radius: 0 10px 10px 0;
+    border: 2px solid;
+}
+.status .icon{
+    z-index: 1;
+    color: #4f5b66;
+    margin-top: 10px;
+}
+.bgr4{
+    height: 40px;
+}
+
+.bgr4 td {
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+}
+
+.tb{
+    width: 100%;
+}
+
+.bgr {
+    background-color: #4db248;
+}
+
+
+.bgr td{
+    height: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.wr_start_date, .wr_end_date {
+    text-align: center;
+}
+
+
+
+.seri a{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.btn{
+    background-color: #58257b; /* Màu của Quản trị mạng ^^ */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /*margin: 4px 2px;*/
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+    /*margin-top: 30px;*/
+}
+.div-btn{
+    line-height: 80px;
+}
+.btn1{
+    background-color: white;
+    color: black;
+    border: 2px solid crimson;
+}
+.btn1:hover {
+    background-color: crimson;
+}
+.kh{
+    font-weight: bold;
+}
+.tb1{
+    display: flex;
+    justify-content: center;
+}
+
+.tb1 tr {
+    width: 100%;
+}
+.center{
+    width: 60%;
+    margin: auto;
+}
+.wr_content {
+    width: 100%;
+    border-radius: 3px !important;
+    border: 1px solid #4db248 !important;
+    margin-top: 30px;
+    padding: 30px;
+    margin: auto;
+ }
+
+ .wr_container {
+    margin-top: 30px;
+    /*height: 27px;*/
+    clear: both;
+}
+
+.wr_container_area {
+    margin-top: 30px;
+    height: 350px;
+}
+
+.wr_action {
+    text-align: center;
+}
+
+
+.wr_name {
+    width: 25%;
+    float: left;
+}
+
+.wr_name label {
+    line-height: 30px;
+}
+
+.wr_input {
+    display: flex;
+}
+.wr_input a{
+    line-height: normal;
+    width: 25%;
+    margin-left: 10px;
+    text-decoration: underline !important;
+}
+.wr_lb{
+    width: 85%;
+    float: left;
+}
+.wr_input input {
+    width: 100%;
+    font-size: 12px;
+    height: 27px;
+    border: 1px solid #ccc !important;
+    padding: 6px !important;
+    border-radius: 3px !important;
+}
+
+.wr_area {
+   width: 90%;
+   float: right;
+}
+
+.wr_add {
+    background-color:#12306f;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc !important;
+    border-radius: 3px !important;
+    cursor: pointer;
+}
+
+.wr_cancel {
+    background-color:#ff3945;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc !important;
+    border-radius: 3px !important;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.wr_require {
+    color: red;
+}
+
+.breamcum {
+    padding-top: 10px;
+    height: 20px;
+}
+
+input:focus, .form-line-active textarea:focus {
+    border: 1px solid green !important;
+    box-shadow: 0 0 3px green !important;
+    -moz-box-shadow: 0 0 3px green !important;
+    -webkit-box-shadow: 0 0 3px green !important;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline-offset: 0px !important;
+    outline: none !important;
+}
+
+
+
+.tb2{
+    color: white;
+    width: 100%;
+    padding-top: 10px;
+}
+.tb2 td{
+    padding-left: 10px;
+    background-color: cadetblue;
+}
+.bold{
+    font-weight: bold;
+}
+/*lich su bao hanh bao dương*/
+.baohanh{
+    width: 100% !important;
+    margin-top: 20px;
+}
+.tb3{
+    width: 100%;
+    margin: auto;
+}
+.tb3 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bold td{
+    font-weight: bold;
+}
+.col{
+    color: grey;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h1{
+    padding-left: 100px;
+}
+.btn2 input{
+    background-color: mediumslateblue; /* Màu của Quản trị mạng ^^ */
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.btn2{
+    text-align: center;
+}
+
+/*Login*/
+.userbox {
+    margin: auto;
+    margin-bottom: 70px;
+    box-shadow: none;
+    border: 1px solid lightgrey;
+    padding: 30px;
+    border-radius: 0px;
+    width:700px;
+    margin-top: 50px;
+}
+.userbox .header-account {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.userbox .header-account i {
+    float: left;
+    font-size: 40px;
+    margin-right: 14px;
+    color: #12306f;
+    padding-top: 12px;
+}
+.userbox .header-account h2 {
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+    color: #12306f;
+}
+.icon-field {
+     display: block;
+     text-align: left;
+     color: #0F0D0D;
+     padding: 0;
+     margin-bottom: 5px;
+ }
+.userbox input[type=email]{
+    width: 100%;
+    border-radius: 0px;
+    line-height: 1.42857;
+    color: rgb(85, 85, 85);
+    background-color: rgb(255, 255, 255);
+    padding: 6px 12px;
+    border: 1px solid rgb(204, 204, 204);
+    margin-bottom: 15px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.userbox input[type=text]{
+    width: 100%;
+    border-radius: 0px;
+    line-height: 1.42857;
+    color: rgb(85, 85, 85);
+    background-color: rgb(255, 255, 255);
+    padding: 6px 12px;
+    border: 1px solid rgb(204, 204, 204);
+    margin-bottom: 15px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.userbox input[type=password] {
+    width: 100%;
+    border-radius: 0px;
+    line-height: 1.42857;
+    color: rgb(85, 85, 85);
+    background-color: rgb(255, 255, 255);
+    padding: 6px 12px;
+    border: 1px solid rgb(204, 204, 204);
+    margin-bottom: 15px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+/*menu*/
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+.menu{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    background-color: #129fd8;
+    height: 40px;
+}
+
+.menu li {
+    margin-top: 10px;
+}
+
+.menu li a {
+    color: white;
+}
+
+.menu li a:hover{
+    color: black;
+}
+
+.menu li:checked{
+    background-color: red;
+}
+
+div.clear{
+    clear: both;
+}
+/*footer*/
+footer div.footer{
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    /*font-size: 15px;*/
+
+    background-color: #4285f3;
+}
+footer div.footer p{
+    border-top: 1px solid gainsboro;
+    padding: 20px;
+    color: white
+}
+
+.footer a {
+    color:  white;
+    cursor: pointer;
+}
+.paginate{
+    /*position: absolute;*/
+    /*right: 20px;*/
+}
+.flex_c{
+    display: flex;
+    justify-content: center;
+}
+.title12{
+    color: crimson;
+}
+.bgr_login{
+    background-color: #5897fb;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    color: white;
+}
